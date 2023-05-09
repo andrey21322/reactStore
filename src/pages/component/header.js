@@ -6,7 +6,7 @@ function Header() {
   return (
    <>
     <div>
-      <span className='logo'><Link to="/home" className='link'>House Staff</Link></span>
+      <span className='logo'><Link to="/" className='link'>House Staff</Link></span>
       <ul className='nav'>
         <li><Link to="/about" className='link'>About us</Link></li>
         <li><Link to="/contacts" className='link'>Contacts</Link></li>

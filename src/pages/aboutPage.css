@@ -205,3 +205,33 @@
     transition: 0.3s;
 }
 
+@media screen and (max-width: 430px) {
+    .carousel {
+        display: block;
+    }
+    .carousel-inner {
+        display: block;
+    }
+    .carousel-indicators {
+        flex-direction: row;
+        width: 25%;
+        height: 2px;
+        justify-content: space-between;
+    }
+    .carousel-indicators .line {
+        width: 97%;
+        height: 2px;
+    }
+    .carousel-control {
+        left: 13%;
+        bottom: 20px;
+    }
+    .content {
+        width: 330px;
+        margin-left: 4%;
+        text-align: center;
+    }
+    .slide-wrapper {
+        display: none;
+    }
+}

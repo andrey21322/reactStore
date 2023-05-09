@@ -5,7 +5,7 @@ export class Order extends Component {
   render() {
     return (
       <div className='item'> 
-        <img src={"./reactStore/img/" + this.props.item.img} alt={this.props.item.img}/>
+        <img src={"../reactStore/img/" + this.props.item.img} alt={this.props.item.img}/>
         <h2>{this.props.item.title} <span className='span-x'>x{this.props.item.count}</span></h2>
         <b>{this.props.item.price} UAH</b> 
         <div className='minusOrderCount' onClick={() => this.props.minusOrderCount(this.props.item)}>-</div>
